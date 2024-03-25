@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "complexes",
+  "info": {
+    "singularName": "complex",
+    "pluralName": "complexes",
+    "displayName": "complex",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
